@@ -51,7 +51,7 @@ setup(
     ],
     install_requires=[
         'Django >= 1.8.0,<1.11',
-        'psycopg2',
+        'psycopg2cffi',
     ],
     zip_safe=False,
 )
